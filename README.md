@@ -5,10 +5,10 @@
 
 ## 実行手順
 1. 本リポジトリの中身をルートフォルダに置きます。(MAMPの例 → C:\MAMP\htdocs)
-2. bs-config.js内のfilesとproxyの部分を適宜変更します。
+2. bs-config.js内のfilesとproxyの部分を適宜各開発ツールに合わせて変更します。
 2. `npm i`でパッケージをインストールします。
 3. 各開発ツールを立ち上げている状態で、`npm run start`コマンドを打ちます。
 
 ## 備考
-- `npm run start`ターミナルに表示されるLocalとExternalのアドレスはどちらも使用できます。
+- `npm run start`コマンドを打った後、ターミナルに表示されるLocalとExternalのアドレスはどちらも使用できます。
 - Externalの方は同じローカルネットワーク接続してあれば、スマホから閲覧することもできます。(セキュリティソフトがブロックして使えないことがあるので、その場合、セキュリティソフトの設定を見直してください。[Browser-syncでExternalのアドレスにスマホからアクセスできない場合の対策](https://keikenchi.com/browser-sync-can-not-access-externals-address))
