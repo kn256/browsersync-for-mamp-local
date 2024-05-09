@@ -1,0 +1,1 @@
+# browsersync-for-mamp-local
