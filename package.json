@@ -1,0 +1,15 @@
+{
+    "name": "htdocs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "bs-config.js",
+    "scripts": {
+        "start": "browser-sync start --config bs-config.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^3.0.2"
+    }
+}
